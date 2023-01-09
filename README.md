@@ -1,5 +1,9 @@
 # Computer Vision RPS
+
+# Outline of scope
 Through this project ill be using google's teachable machine tensor flow model to learn to detect hand positions of rock paper and scissors to be able to identify which pose the user is displaying. ill then create a python program that will randomly select one of these states and then challenge the user. the program will then compare the user input to the computers randomly selected position, and decide the outcome as a win, lose or draw based on the rules of rock paper scissors. 
+
+# Teachable Machine 
 
 the program will utilise machine learning via teachable machine and logic based code using python and fuse the two. so far i have created 4 states.
 
@@ -10,11 +14,19 @@ Nothing - a collection of images with no gesture.
 
 ive then downloaded the model, and pushed it to my repository on github.
 
+# Coding the python logic
+
 Now that the model is generated its time to move on to writing some python code for the rock paper scissors game.
+
+# Getting the computers choice
 
 first i created a function that defines the computers choice, to do this the function has a list of the three possible choice (rock, paper, scissors) i then imported the random module, selected the choice function and past in the list. i set a variable as computer choice and assigned the output of the above function to the variable, i then closed out the function by returning the variable.
 
+# Getting the users choice
+
 next i needed a way to take in the users choice and assign it to a variable. i creadted a funtion that prompts the user to either enter rock paper or scissors and then store that input to a variable called user choice and return it.
+
+# Creating the logic for all possible outcomes
 
 next was to create a function to decide the winner. as there are three possible options for the computer to make and three for the user that leaves us with nine possible outcomes (3 choices x 3 choices = 9 possible outcomes)
 
