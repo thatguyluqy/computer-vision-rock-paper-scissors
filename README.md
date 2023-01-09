@@ -1,4 +1,5 @@
 # Computer Vision RPS
+![Getting Started](RPS.jpg)
 
 ## Outline of scope
 Through this project ill be using google's teachable machine tensor flow model to learn to detect hand positions of rock paper and scissors to be able to identify which pose the user is displaying. ill then create a python program that will randomly select one of these states and then challenge the user. the program will then compare the user input to the computers randomly selected position, and decide the outcome as a win, lose or draw based on the rules of rock paper scissors. 
