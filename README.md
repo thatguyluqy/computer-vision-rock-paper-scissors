@@ -56,3 +56,19 @@ if the outcome is one of the first three situations then the user has lost -> if
 
 finally i  created a function called play which just ties the functions together and in order.
 get the user choice then get the computer choice, outline every outcome and print the result.
+
+the game stops when  either the user or computer hits 3 wins, and prints "you won!"
+
+while True:
+    if computer_wins >= 3 or user_wins >= 3:
+        break
+    play()
+    print("Computer wins:", computer_wins, "User wins:", user_wins)
+
+if computer_wins == 3:
+    print("Computer wins the game!")
+else:
+    print("You win the game!")
+
+
+i could go on and clean the code up by turning it in to an oject oriented program by initialising an instance, putting most of the functions as methods within the class but as i work fulltime, and im learning to code from scratch my time is limited so im going to go ahead and leave it at is, maybe at a later date when all i do is code ill circle back and clean things up.
